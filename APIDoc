@@ -1,0 +1,28 @@
+API:
+model: StyleGenerator
+
+concat_input(dict):
+	keys: [*dict]
+	concatenated_input: dict[keys[0]] + dict[keys[1]] + dict[keys[2]] + dict[keys[3]] + dict[keys[4]]
+	return concatenated_input
+	
+get_generated_clothes(request: dict):
+	process the input with ftfy
+	
+	concatenated_input: dict[gender + characteristics + colour + aparel_type + placing]
+	
+	number of clothes
+	
+	image: model.generate_clothes(concatenated_input, number_of_clothes)
+	image: encode_image into jpg format
+	
+	return as mimetype
+
+Class StyleGenerator:
+	initialise models
+	image: generate_clothes(concatenated_input, number_of_clothes) ->
+		steps: 61
+		seed: seeds[number_of_steps]according to the number of steps out of [61531, 61570, 61571, 61610, -1]
+			
+	inference_code
+	
