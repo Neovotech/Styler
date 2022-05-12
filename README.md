@@ -42,14 +42,19 @@ example JSON format:
 
 Here are some of the generated results.
 
+
 `"Long Sleeve Grey Shirt"`
+
 ![Results 1](/images/1.png)
 
 `"Yellow Floral Dress"`
+
 ![Results 2](/images/2.png)
 
 `"Female Long Sleeve Plaid Shirt"`
+
 ![Results 3](/images/3.png)
 
 `"Blue Sports Jacket"`
+
 ![Results 4](/images/4.png)
